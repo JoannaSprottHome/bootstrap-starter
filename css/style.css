@@ -1,0 +1,13 @@
+body {
+    padding-top: 50px;
+}
+
+.template-links {    
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.links-container {
+    margin-top: 200px;
+}
