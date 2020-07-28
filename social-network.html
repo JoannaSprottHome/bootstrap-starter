@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Dobble</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js" rel="stylesheet">  
+
+    <!-- Custom styles for this template -->
+    <link href="css/sn-style.css" rel="stylesheet">
+  </head>
+    
+    <header>
+        <div class="container">
+            <img class="logo" src="img/sn/logo.png">
+            <form class="form-inline">
+                <label class="sr-only">Email</label>
+                <input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput1" placeholder="Enter email">
+                
+                <label class="sr-only">Password</label>
+                <input type="password" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput2" placeholder="Enter password">
+
+               <button type="submit" class="btn btn-secondary">Sign in</button>
+            
+               <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+               </div>    
+                
+            </form>
+        </div>
+    </header>
+
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="groups.html">Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>    
+        </ul>
+      </div>
+    </nav><!--nav END -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                      <div class="card-header">
+                        Wall
+                      </div>
+                      <div class="card-block">
+                        <form>
+                              
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write on the wall" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-secondary">Submit</button> 
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-secondary"><i class="fa fa-pencil"></i> Text</button>
+                                  <button type="button" class="btn btn-secondary"><i class="fa fa-picture-o"></i> Image</button>
+                                  <button type="button" class="btn btn-secondary"><i class="fa fa-video-camera"></i> Video</button>
+                                </div>
+                            </div>
+                        </form>
+                      </div>        
+                    </div><!-- col-md-8-END -->
+                    
+                    <div class="card post">
+                          <div class="card-block">
+                              <div class="row">
+                              <div class="col-sm-2">
+                                  <a class="post-avatar thumbnail" href="profile.html"><img  src="img/sn/user.png" id="person"><div class="text-center">Dev1</div></a>
+                                  <div class="likes text-center">7 Likes</div>
+                              </div><!-- col-md-2-END -->
+                              <div class="col-sm-10">
+                                  <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio eu fringilla placerat, nibh justo cursus metus, in bibendum urna sapien porttitor nibh. In nulla ante, ultrices sit amet velit vitae, volutpat volutpat libero. Donec imperdiet purus ac ante auctor, id mattis felis efficitur.</p>
+                                  <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a> - <a href="#">Share</a></p>
+                                  <div class="comment-form">
+                                      <form class="form-inline">
+                                          <div class="form-group">
+                                          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter comment">
+                                          <button type="submit" class="btn btn-secondary">Add</button>
+                                        </div>      
+                                        </form>
+                                  </div><!--end comment form -->
+                                  <div class="clear-fix"></div>
+                                  
+                                  <div class="comments">
+                                      <div class="media">
+                                          <img class="d-flex mr-3" src="img/sn/user.png" >
+                                          <div class="media-body">
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="media">
+                                          <img class="d-flex mr-3" src="img/sn/user.png" >
+                                          <div class="media-body">
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div><!-- col-md-10-END -->
+                              </div><!-- row END -->      
+                          </div><!-- card-block END -->
+                        </div><!-- card END-->
+                    
+                    <div class="card post">
+                          <div class="card-block">
+                              <div class="row">
+                              <div class="col-sm-2">
+                                  <a class="post-avatar thumbnail" href="profile.html"><img  src="img/sn/user.png" id="person"><div class="text-center">Dev2</div></a>
+                                  <div class="likes text-center">15 Likes</div>
+                              </div><!-- col-md-2-END -->
+                              <div class="col-sm-10">
+                                  <p class="bubble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, odio eu fringilla placerat, nibh justo cursus metus, in bibendum urna sapien porttitor nibh.</p>
+                                  <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a> - <a href="#">Share</a></p>
+                                  <div class="comment-form">
+                                      <form class="form-inline">
+                                          <div class="form-group">
+                                          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter comment">
+                                          <button type="submit" class="btn btn-secondary">Add</button>
+                                        </div>      
+                                        </form>
+                                  </div><!--end comment form -->
+                                  <div class="clearfix"></div>
+                                  
+                                  <div class="comments">                                      
+                                      <div class="media">
+                                          <img class="d-flex mr-3" src="img/sn/user.png" >
+                                          <div class="media-body">
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div><!-- col-md-10-END -->
+                              </div><!-- row END -->      
+                          </div><!-- card-block END -->
+                        </div><!-- card END--> 
+                    
+                    <div class="card post">
+                          <div class="card-block">
+                              <div class="row">
+                              <div class="col-sm-2">
+                                  <a class="post-avatar thumbnail" href="profile.html"><img  src="img/sn/user.png" id="person"><div class="text-center">Dev3</div></a>
+                                  <div class="likes text-center">23 Likes</div>
+                              </div><!-- col-md-2-END -->
+                              <div class="col-sm-10">
+                                  <p class="bubble">In nulla ante, ultrices sit amet velit vitae, volutpat volutpat libero. Donec imperdiet purus ac ante auctor, id mattis felis efficitur.</p>
+                                  <p class="post-actions"><a href="#">Comment</a> - <a href="#">Like</a> - <a href="#">Follow</a> - <a href="#">Share</a></p>
+                                  <div class="comment-form">
+                                      <form class="form-inline">
+                                          <div class="form-group">
+                                          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter comment">
+                                          <button type="submit" class="btn btn-secondary" style="display: inline;">Add</button>
+                                        </div>      
+                                        </form>
+                                  </div><!--end comment form -->
+                                  <div class="clearfix"></div>
+                                  
+                                  <div class="comments">
+                                      <div class="media">
+                                          <img class="d-flex mr-3" src="img/sn/user.png" >
+                                          <div class="media-body">
+                                                Pellentesque sit amet placerat sapien, ac cursus velit. Mauris aliquet eleifend fringilla 
+                                          </div>
+                                      </div>
+                                      
+                                      <div class="media">
+                                          <img class="d-flex mr-3" src="img/sn/user.png" >
+                                          <div class="media-body">
+                                                Pellentesque sit amet placerat sapien, ac cursus velit. Mauris aliquet eleifend fringilla 
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div><!-- col-md-10-END -->
+                              </div><!-- row END -->      
+                          </div><!-- card-block END -->
+                        </div><!-- card END-->
+                    
+                </div>
+                
+                
+                
+                
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                      <h3 class="card-header">My friends</h3>
+                      <div class="card-block friends">
+                        <ul>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                            <li><a class="thumbnail" href="profile.html"><img src="img/sn/user.png"></a></li>
+                        </ul>
+                         <div class="clearfix"></div><br> 
+                          <a href="#" class="btn btn-primary">View all friends</a>
+                      </div>
+                    </div>
+                    
+                    <div class="card groups">
+                      <div class="card-header">
+                        Latest groups
+                      </div>
+                      <div class="card-block">
+                        <div class="group-item">
+                            <img src="img/sn/group.png">
+                            <h4><a href="#">Sample group 1</a></h4>
+                            <p> This is a double social network sample group item.</p>
+                        </div>
+                        <div class="clearfix"></div>  
+                        <div class="group-item">
+                            <img src="img/sn/group.png">
+                            <h4><a href="#">Sample group 2</a></h4>
+                            <p> This is a double social network sample group item.</p>
+                        </div>
+                        <div class="clearfix"></div>  
+                        <div class="group-item">
+                            <img src="img/sn/group.png">
+                            <h4><a href="#">Sample group 3</a></h4>
+                            <p> This is a double social network sample group item.</p>
+                        </div>  
+                         <div class="clearfix"></div>  
+                         <a href="#" class="btn btn-primary">View all groups</a>  
+                      </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </section>
+      
+    <footer>
+        <div class="container">
+            <p>Dobble copyright &copy; 2015, All Rights Reserved.</p>
+        </div>
+    </footer>  
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      
+    <!-- not sure whether to keep -->  
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- not sure whether to keep -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>  
+    <script src="js/bootstrap.min.js"></script> 
+  </body>
+</html>
